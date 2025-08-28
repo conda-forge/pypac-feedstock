@@ -1,5 +1,5 @@
 {% set name = "pypac" %}
-{% set version = "0.17.0" %}
+{% set version = "0.17.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/carsonyl/pypac/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 4f49eb1da024d41969ba6474469d268dd2bacbbe06a3877f6ca89f62687b932c
+  sha256: f4acca81ed5e732869538e0ab34e2dff39df575deb7b26ca342af766866354aa
 
 build:
   noarch: python
